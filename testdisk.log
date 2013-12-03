@@ -1,0 +1,85 @@
+
+
+Fri Aug 30 14:46:11 2013
+Command line: TestDisk
+
+TestDisk 6.13, Data Recovery Utility, November 2011
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 3.5.0-39-generic (#60-Ubuntu SMP Tue Aug 13 18:33:05 UTC 2013) x86_64
+Compiler: GCC 4.7
+Compilation date: 2012-10-01T13:00:04
+ext2fs lib: 1.42.5, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none
+/dev/sda: LBA, LBA48, DCO support
+/dev/sda: size       1465149168 sectors
+/dev/sda: user_max   1465149168 sectors
+/dev/sda: dco        1465149168 sectors
+Warning: can't get size for Disk /dev/mapper/control - 0 B - CHS 1 1 1, sector size=512
+Hard disk list
+Disk /dev/sda - 750 GB / 698 GiB - CHS 91201 255 63, sector size=512 - ST750LM022 HN-M750MBB, S/N:S2SUJ9CC609550, FW:2AR10002
+Disk /dev/mmcblk0 - 3951 MB / 3768 MiB - CHS 120576 4 16, sector size=512
+
+Partition table type (auto): Intel
+Disk /dev/mmcblk0 - 3951 MB / 3768 MiB
+Partition table type: Intel
+
+Interface Advanced
+Geometry from i386 MBR: head=122 sector=57
+BAD_RS LBA=8192 98
+FAT32 at 128/0/1
+Info: size boot_sector 7708672, partition 7708672
+FAT1 : 6310-7250
+FAT2 : 7251-8191
+start_rootdir : 8192 root cluster : 2
+Data : 8192-7708671
+sectors : 7708672
+cluster_size : 64
+no_of_cluster : 120320 (2 - 120321)
+fat_length 941 calculated 941
+heads/cylinder 128 (FAT) != 4 (HD)
+sect/track 63 (FAT) != 16 (HD)
+set_FAT_info: name from BS used
+get_geometry_from_list_part_aux head=4 nbr=2
+get_geometry_from_list_part_aux head=8 nbr=2
+get_geometry_from_list_part_aux head=16 nbr=2
+get_geometry_from_list_part_aux head=32 nbr=2
+get_geometry_from_list_part_aux head=64 nbr=2
+get_geometry_from_list_part_aux head=128 nbr=2
+ 1 P FAT32                  128   0  1 120575   3 16    7708672 [NO NAME]
+     FAT32, 3946 MB / 3764 MiB
+
+FAT: cluster=2(0x2), pos=16384
+Directory /
+       3 drwxr-xr-x     0      0         0 12-Feb-2009 22:11 STEREO
+       4 drwxr-xr-x     0      0         0 12-Feb-2009 22:11 4CH
+       5 drwxr-xr-x     0      0         0 12-Feb-2009 22:11 MTR
+   65538 -rwxr-xr-x     0      0  57129358  8-Dec-2012 02:50 RADIO.WAV
+   67282 -rwxr-xr-x     0      0  19575014  8-Dec-2012 02:50 c'est moche.wav
+   67880 -rwxr-xr-x     0      0  35778446  8-Dec-2012 02:41 DENTS.WAV
+   68972 -rwxr-xr-x     0      0  37048550  8-Dec-2012 02:44 magic 2.wav
+   49662 -rwxr-xr-x     0      0      4096  5-Feb-2013 18:37 ._.Trashes
+X  49661 drwxr-xr-x     0      0         0  5-Feb-2013 18:37 _RASHE~1.R2B
+   49661 drwxr-xr-x     0      0         0  5-Feb-2013 18:37 .Trashes
+   49663 drwxr-xr-x     0      0         0  5-Feb-2013 18:37 .Spotlight-V100
+  116432 drwxr-xr-x     0      0         0 17-May-2013 11:42 .fseventsd
+   64222 -rwxr-xr-x     0      0  11042986  5-Apr-2013 14:17 vaccutech 2000.wav
+X      0 -rwxr-xr-x     0      0         0 13-Feb-2013 18:06 tmp0xarxg
+X      0 -rwxr-xr-x     0      0         0 14-Feb-2013 22:23 tmp4eebvu
+X   4567 drwxr-xr-x     0      0     32768 14-Feb-2013 23:09 _433703_
+X      0 -rwxr-xr-x     0      0         0 19-Feb-2013 17:14 tmpccavgx
+X   4567 -rwxr-xr-x     0      0 123317096  5-Apr-2013 14:24 dirt digimovie.wmv
+   15342 drwxr-xr-x     0      0         0 24-Jul-2013 00:45 DCIM
+   15343 drwxr-xr-x     0      0         0 24-Jul-2013 00:45 MISC
+X  13426 drwxr-xr-x     0      0     32768 26-Apr-2012 21:35 The_Art_of_Fi
+X  31568 drwxr-xr-x     0      0     32768 27-Apr-2012 03:24 The_Art_of_Field_Recording_Volume_1
+X      0 -rwxr-xr-x     0      0         0  1-May-2013 13:51 tmpremm3h
+X      0 -rwxr-xr-x     0      0         0  8-May-2013 23:42 tmphqvbyt
+X      8 drwxr-xr-x     0      0     32768 19-May-2013 05:41 _133453_
+X      0 -rwxr-xr-x     0      0         0  5-Jun-2013 00:42 tmpvwvocp
+X      0 -rwxr-xr-x     0      0         0  6-Jun-2013 21:57 tmprki7kd
+X      0 -rwxr-xr-x     0      0         0  9-Jun-2013 17:05 tmpqqaeri
+X      0 -rwxr-xr-x     0      0         0  9-Jun-2013 17:31 tmpihkt7n
+X    239 drwxr-xr-x     0      0     32768 12-Jun-2013 17:29 _483984_
+X      0 -rwxr-xr-x     0      0         0 12-Jun-2013 19:11 tmpcrhurd
+X    239 drwxr-xr-x     0      0     32768 12-Jun-2013 22:24 _411500_
+X      0 -rwxr-xr-x 
